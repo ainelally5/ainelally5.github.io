@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+    <!--   Document Title
+    ============================================= -->
+	<link rel="icon" type="image/png" href="assets/images/logo.png"/>
+    <title>Galway Jewellers</title>
+
+    <!--  Stylesheets
+    ============================================= -->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+<!--*******************************************************************************
+	                               Body
+*******************************************************************************-->
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
+      </div>
+
+<!--*******************************************************************************
+	                               Navbar
+*******************************************************************************-->
+		<nav id="totop" class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+			 <li><a href="index.html"><img id="logo" class="img-circle img-thumbnail" src="assets/images/logo.png" alt="logo"/></a></li>
+			  <li><a class="navbar-brand" href="index.html">Galway Jewellers</a></li>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+				<li class="nav-link"><a href="index.html">Home</a></li>
+                <li class="nav-link"><a href="rings.html">Rings</a></li>
+				<li class="nav-link"><a href="earrings.html">Earrings</a></li>
+				<li class="nav-link"><a href="necklaces.html">Necklaces</a></li>
+				<li class="nav-link"><a href="bracelets.html">Bracelets</a></li>
+				<li class="nav-link"><button style="background-color: inherit; border: none;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart"><img src="assets/images/cart.png" alt="cart"> (<span class="total-count"></span>)</button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+		
+<!--*******************************************************************************
+	                                index Page Slider
+*******************************************************************************-->
+<!--	  this slider code only use for computer view -->			
+      <section class="home-section home-fade home-full-height computer" id="home">
+        <div class="hero-slider col-lg col-md col-sm col-xs">
+          <ul class="slides ">
+				<li class="bg-dark-30 bg-dark shop-page-header " style="background-image:url(assets/images/index-page-slider-1.jpg);">
+				  <div class="jeweller-caption">
+					<div class="caption-content">
+					  <div class="font-alt mb-20 titan-title-size-1"><p>EXPLORE OUR RANGE OF</p></div>
+					  <div class="font-alt mb-20 titan-title-size-1"><h1>Engagement Rings</h1></div>
+						<a class="section-scroll btn btn-border-w btn-round" href="rings.html">Shop Now</a>
+					</div>
+				  </div>
+				</li>			
+
+				<li class="bg-dark-30 bg-dark shop-page-header " style="background-image:url(assets/images/index-page-slider-2.jpg);">
+				  <div class="jeweller-caption">
+					<div class="caption-content">
+					  <div class="font-alt mb-20 titan-title-size-1"><p></p></div>
+					  <div class="font-alt mb-20 titan-title-size-1"><h1></h1></div>
+					</div>
+				  </div>
+				</li>
+			</ul>
+        </div>
+      </section>
+<!--	  this slider code only use for mobile view -->		
+	  <section class="home-section home-fade home-full-height mobile" >
+        <div class="hero-slider col-lg col-md col-sm col-xs">
+          <ul class="slides ">		 
+			  <li class="bg-dark-30 bg-dark shop-page-header " style="background-image:url(assets/images/index-page-slider-1-mobile.jpg);">
+				  <div class="jeweller-caption">
+					<div class="caption-content">
+					  <div class="font-alt mb-20 titan-title-size-1"><p>EXPLORE OUR RANGE OF</p></div>
+					  <div class="font-alt mb-20 titan-title-size-1"><h1>Engagement Rings</h1></div>
+						<a class="section-scroll btn btn-border-w btn-round" href="rings.html">Shop Now</a>
+					</div>
+              	</div>
+            </li>				
+			<li class="bg-dark-30 bg-dark shop-page-header " style="background-image:url(assets/images/index-page-slider-2-mobile.jpg);">
+              <div class="jeweller-caption">
+                <div class="caption-content">
+                  <div class="font-alt mb-20 titan-title-size-1"><p></p></div>
+                  <div class="font-alt mb-20 titan-title-size-1"><h1></h1></div>
+                </div>
+              </div>
+            </li>
+		  </ul>
+        </div>
+      </section>
+<!--*******************************************************************************
+	                                page Content
+*******************************************************************************-->
+      <div class="main">
+        <section class="module-small">
+          <div class="container">
+			  
+<!--			Rings content		  -->
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Latest in Rings</h2>
+              </div>
+            </div>
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/ring-1.jpg" alt="Ring 1"/>	  					  
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/ring-1.jpg" data-price="30.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a>
+					  </div>			  
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="ring_product-1.html">STERLING SILVER RING</a></h4>€30
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/ring-2.jpg" alt="Ring 2"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/ring-2.jpg" data-price="25.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="ring_product-2.html">WEDDING RING</a></h4>€25.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/ring-3.jpg" alt="Ring 3"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/ring-3.jpg" data-price="35.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="ring_product-3.html">SILVER CLADDAGH BIRTHSTONE RING</a></h4>€35.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/ring-4.jpg" alt="Ring 4"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/ring-4.jpg" data-price="30.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="ring_product-4.html">GOLD ENGAGEMENT RING</a></h4>€30.00
+                </div>
+              </div>
+			</div>
+
+<!--			Earrings content		  -->
+			<div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Latest in Earrings</h2>
+              </div>
+            </div>
+			<div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/earring-1.jpg" alt="Earring 1"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/earring-1.jpg" data-price="40.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="earring_product-1.html">LADIES STUD EARRINGS</a></h4>€40.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/earring-2.jpg" alt="Earring 2"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/earring-2.jpg" data-price="30.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="earring_product-2.html">LADIES HEART STUD EARRINGS</a></h4>€30.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/earring-3.jpg" alt="Earring 3"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/earring-3.jpg" data-price="55.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="earring_product-3.html">MULTI COLOURED STONES SET OPEN CIRCLE STUD EARRING</a></h4>€55.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/earring-4.jpg" alt="Earring 4"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/earring-4.jpg" data-price="50.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="earring_product-4.html">MULTI COLOUR SMALL EARRING</a></h4>€50.00
+                </div>
+              </div>
+            </div>
+		   </div>
+        </section>
+	 </div>
+		
+<!--			Center Image		  -->	  
+        <section>
+<!--	  this image code only use for computer view -->	
+			<div class="computer">
+				  <img style="width: auto; height: 800px;" src="assets/images/index-page-center-image.jpg" alt="center image">
+          		</div>
+<!--	  this image code only use for mobile view -->	
+			<div class="mobile">
+				  <img style="width: auto; height: 300px;" src="assets/images/index-page-center-image-mobile.jpg" alt="center image">
+          		</div>
+        </section>
+
+<!--			Necklaces content		  -->
+		<section class="module-small">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Latest in Necklaces</h2>
+              </div>
+            </div>
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/necklaces-1.jpg" alt="Accessories Pack"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/necklaces-1.jpg" data-price="65.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="necklace_product-1.html">ROSE GOLD STONE SET CIRCLE NECKLACE</a></h4>€65.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/necklaces-2.jpg" alt="Men’s Casual Pack"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/necklaces-2.jpg" data-price="60.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="necklace_product-2.html">YELLOW GOLD WITH GREEN STONE PENDANT</a></h4>€60.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/necklaces-3.jpg" alt="Men’s Garb"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/necklaces-3.jpg" data-price="55.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="necklace_product-3.html">GOLD STONE SET HORSESHOE BEADED CHAIN NECKLACE</a></h4>€55.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/necklaces-4.jpg" alt="Cold Garb"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/necklaces-4.jpg" data-price="50.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="necklace_product-4.html">SILVER ENGRAVED OVAL FLOWER LOCKET</a></h4>€50.00
+                </div>
+              </div>
+			</div>
+			
+<!--			Bracelets content		  -->
+			<div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Latest in Bracelets</h2>
+              </div>
+            </div>	
+			<div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/bracelet-1.jpg" alt="Accessories Pack"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/bracelet-1.jpg" data-price="20.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="bracelet_product-1.html">GOLDEN DOUBLE HERRINGBONE LADIES BRACELET</a></h4>€20.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/bracelet-2.jpg" alt="Men’s Casual Pack"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/bracelet-2.jpg" data-price="25.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="bracelet_product-2.html">STAR GOLD BRACELET</a></h4>€25.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/bracelet-3.jpg" alt="Men’s Garb"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/bracelet-3.jpg" data-price="35.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="bracelet_product-3.html">MULTI COLOURED STONE CHAIN LADIES BRACELET</a></h4>€35.00
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="shop-item">
+                  <div class="shop-item-image"><img src="assets/images/bracelet-4.jpg" alt="Cold Garb"/>
+                    <div class="shop-item-detail"><a href="#" data-name="assets/images/bracelet-4.jpg" data-price="40.00" class="add-to-cart btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                  </div>
+                  <h4 class="shop-item-title font-alt"><a href="bracelet_product-4.html">SILVER LADIES BRACELET</a></h4>€40.00
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+		  		  
+<!--*******************************************************************************
+	                         Model for shopping cart
+*******************************************************************************-->
+		<!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-md modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">     
+        </table>
+        <div><h4><strong>Total price: €<span class="total-cart"></span></strong></h4></div>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-secondary"><a href="checkout.html" style="color: white;">View Cart</a></button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!--*******************************************************************************
+	                                Footer
+*******************************************************************************-->
+        
+        <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Shop</h5>
+                  <ul class="icon-list">
+                    <li><a href="rings.html">Rings</a></li>
+                    <li><a href="earrings.html">Earrings</a></li>
+                    <li><a href="necklaces.html">Necklaces</a></li>
+                    <li><a href="bracelets.html">Bracelets</a></li>
+                   </ul>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Company</h5>
+                  <ul class="icon-list">
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="terms-conditions.html">Terms and Conditions</a></li>
+                    <li><a href="terms-conditions.html#refund-&-exchange">Refund and Exchange Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Contact Us</h5>
+					<p>Galway Jewellers, Shop Street, Galway</p>
+                  <p>Phone: +353 111 111 11 11</p>
+                  <p>Email: galwayjewellers@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Media Links</h5>
+                  <ul class="widget-posts">
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="#"><img src="assets/images/facebook.png" alt="facebook icon"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="#">facebook</a></div>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="#"><img src="assets/images/snapchat.png" alt="snapchat icon"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="#">snapchat</a></div>
+                      </div>
+                    </li>
+					<li class="clearfix">
+                      <div class="widget-posts-image"><a href="#"><img src="assets/images/twitter.png" alt="twitter icon"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="#">twitter</a></div>
+                      </div>
+                    </li>
+					<li class="clearfix">
+                      <div class="widget-posts-image"><a href="#"><img src="assets/images/instagram.png" alt="instagram icon"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="#">instagram</a></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 align-center">
+                <p class="copyright font-alt">&copy; 2021&nbsp;<a href="index.html">Galway Jewellers</a>, All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+	
+		
+			 
+    </main>
+    <!--  
+    JavaScripts
+    =============================================
+    -->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+<!--    <script src="assets/lib/smoothscroll.js"></script>-->
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/shoppingcart.js"></script>
+  </body>
+</html>
