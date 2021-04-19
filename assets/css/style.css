@@ -1468,12 +1468,16 @@ General Styles - Owlcarousel
 --------------------------------------------------------------*/
 #logo{
 	width: inherit;
-	height: 55px;
+	height: 70px;
 	float: left;
 	background-color: white;
 	margin-right: 10px;
     position: relative;
     animation: mymove 4s;
+}
+.nav-link:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
 }
 @keyframes mymove {
   from {right: 200px;}
@@ -1511,11 +1515,12 @@ General Styles - Owlcarousel
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .navbar-custom .nav li > a {
-  position: relative;
+/*  position: relative;*/
+  margin-top: 10px;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -1828,6 +1833,7 @@ Google map
 /*--------------------------------------------------------------
 	Video Box
 --------------------------------------------------------------*/
+/*
 .video-box {
   text-align: center;
   padding: 40px 0;
@@ -1849,6 +1855,7 @@ Google map
 .video-subtitle {
   color: rgba(255, 255, 255, 0.5);
 }
+*/
 
 /*--------------------------------------------------------------
 	Call to action
@@ -2438,4 +2445,43 @@ Google map
   .works-grid-5 .work-item {
     width: 100%;
   }
+}
+/*--------------------------------------------------------------
+	            Shopping Cart
+--------------------------------------------------------------*/
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+.modal-footer button{
+	background-color: black;
+	color: white;
+	border: none;
+}
+.modal-footer button:hover{
+	color: white;
+	border: none;
+}
+
+
+
+/************************************************************************
+         			 	slider
+*************************************************************************/
+@media (max-width: 501px) {
+    .computer {
+         display: none;
+    }
+}
+@media (min-width: 500px) {
+     .mobile {
+         display: none;
+        }
 }
